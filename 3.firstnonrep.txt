@@ -1,0 +1,13 @@
+class x {
+    public static void main(String args[]) {
+     
+        String name ="Anvithan";
+        String N=name.toLowerCase();
+        for(char i :N.toCharArray()){
+        if ( N.indexOf(i) == N.lastIndexOf(i)) {
+            System.out.println(i);
+            break;
+         }
+    }
+}
+}
